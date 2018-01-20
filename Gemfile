@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails', '4.2.8'
 gem 'bootstrap-sass', '3.2.0.0'
 gem 'sass', '3.4.13'
 gem 'bcrypt', '3.1.7'
@@ -14,7 +14,7 @@ gem 'uglifier',  '2.5.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.1.0'
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '4.0.3'
+gem 'jquery-rails', '4.0.4'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '2.3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -30,7 +30,7 @@ group :development, :test do
   gem 'byebug', '3.4.0'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '2.0.0.beta3'
+  gem 'web-console', '2.1.3'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring', '1.1.3'
@@ -46,5 +46,5 @@ end
 group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
-  gem 'puma', '2.11.1'
+  gem 'puma', '3.11.2'
 end
